@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" type="image/icon" href="img/logo2.png">
+
+    <title>Jojo Patsserie</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="vendor/bootstrap/css/site.css" rel="stylesheet">
+
+     <!-- Custom fonts for this template -->
+    <link href="https://fonts.googleapis.com/css?family=Dosis" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet" type="text/css">
+
+    <!-- Custom styles for this template -->
+    <link href="css/business-casual.css" rel="stylesheet">
+    <!-- Temporary navbar container fix -->
+    <style>
+    .navbar-toggler {
+        z-index: 1;
+    }
+    
+    @media (max-width: 576px) {
+        nav > .container {
+            width: 100%;
+        }
+    }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="col-md-12 espaçamento" id="cabe">
+         <a href="paleta1.html"><img src="img/logo2.png" width="200"></a>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-toggleable-md navbar-light navbar-custom bg-faded3 py-lg-4">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarExample" aria-controls="navbarExample" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="container">
+            <a class="navbar-brand text-uppercase text-expanded font-weight-bold hidden-lg-up" href="#">Home</a>
+            <div class="collapse navbar-collapse" id="navbarExample">
+               <ul class="navbar-nav mx-auto">
+                    <li class="nav-item px-lg-4">
+                        <a class="nav-link text-uppercase text-expanded" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item px-lg-4">
+                        <a class="nav-link text-uppercase text-expanded" href="about.html">Sobre</a>
+                    </li>
+                    <li class="nav-item px-lg-4">
+                        <a class="nav-link text-uppercase text-expanded" href="blog.html">Como chegar</a>
+                    </li>
+                    <li class="nav-item active px-lg-4">
+                        <a class="nav-link text-uppercase text-expanded" href="contact.html">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="container">
+
+        
+
+        <div class="bg-faded p-4 my-4 navcustom3">
+            <hr class="divider">
+            <h2 class="text-center text-lg text-uppercase my-0">Contact <strong>Form</strong></h2>
+            <hr class="divider">
+            <form>
+                <div class="row">
+                    <div class="form-group col-lg-4">
+                        <label class="text-heading">Name</label>
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="form-group col-lg-4">
+                        <label class="text-heading">Email Address</label>
+                        <input type="email" class="form-control">
+                    </div>
+                    <div class="form-group col-lg-4">
+                        <label class="text-heading">Phone Number</label>
+                        <input type="tel" class="form-control">
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="form-group col-lg-12">
+                        <label class="text-heading">Message</label>
+                        <textarea class="form-control" rows="6"></textarea>
+                    </div>
+                    <div class="form-group col-lg-12">
+                        <button type="submit" class="btn btn-secondary">Submit</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+    </div>
+    <!-- /.container -->
+
+    <footer class="bg-faded text-center py-5 bg-faded3 textfont">
+        <div class="container">
+            <b><p class="m-0"><img src="img/endereço.png" width="27px">Av. Engenheiro Roberto Freire, 0114 | Ponta Negra | (84) 3082-2803</div></p></b>
+        </div>
+
+    </footer>
+
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/tether/tether.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Zoom when clicked function for Google Map -->
+    <script>
+    $('.map-container')
+        .click(function() {
+            $(this).find('iframe').addClass('clicked')
+        })
+        .mouseleave(function() {
+            $(this).find('iframe').removeClass('clicked')
+        });
+    </script>
+
+</body>
+
+</html>

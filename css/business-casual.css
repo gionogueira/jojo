@@ -1,0 +1,97 @@
+body {
+    font-family:'Dosis', sans-serif;
+    background: url('../img/bg.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.col-md-12 {
+    text-align: center;
+ }   
+
+h1 {
+    font-size: 4rem;
+}
+
+.tagline-upper {
+    font-size: 5rem;
+    font-weight: 700;
+    line-height: 2;]
+}
+
+.tagline-lower {
+    font-size: 1.2rem;
+    line-height: 1;
+}
+
+.text-expanded {
+    letter-spacing: 2px;
+}
+
+.text-shadow {
+    text-shadow: 1px 1px 2px rgba( 0, 0, 0, 1.0);
+}
+
+.text-lg {
+    font-size: 1.25rem;
+}
+
+.bg-faded {
+    background-color: rgba(234, 185, 200, 0.8);
+}
+.bg-faded2 {
+    background-color: rgba(221, 58, 140, 0.8);
+}
+.bg-faded3 {
+    background-color: rgba(206, 73, 121, 0.8);
+}
+.bg-faded4 {
+    background-color: rgba(183, 105, 52, 0.8);
+}
+.bg-faded5 {
+    background-color: rgba(221, 58, 140, 0.8);
+}
+
+.bg-overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+hr.divider {
+    border-color: #292b2c;
+    max-width: 250px;
+}
+
+.map-container iframe {
+    pointer-events: none;
+}
+
+.map-container iframe.clicked {
+    pointer-events: auto;
+}
+.navcustom{
+    background-color: rgba(233, 100, 129, 0.8);
+}
+.navcustom2{
+    background-color: rgba(198, 122, 70, 0.8);
+}
+.navcustom3{
+    background-color: rgba(114, 192, 194, 0.8);
+}
+.navcustom4{
+    background-color: rgba(51, 181, 156, 0.8);
+}
+.navcustom5{
+    background-color: rgba(201, 183, 54, 0.8);
+}
+
+a {
+	color: black !important;
+}
