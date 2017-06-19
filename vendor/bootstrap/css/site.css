@@ -5,7 +5,10 @@
 .textfont{
 	font-size: 18px;
 }
-.edit{
-	
-	
+ 
+.menu-item: hover{
+	color: pink;
+}
+.alinhar{
+	padding-right: 500px;
 }
