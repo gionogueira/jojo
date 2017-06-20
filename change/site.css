@@ -12,3 +12,13 @@
 .alinhar{
 	padding-right: 500px;
 }
+.edit{
+	padding-top: 10px;
+}
+nav.fixar{
+    position: fixed;
+    margin-top: 0;
+    top: 0;
+    z-index: 99;
+    width: 100%;
+}
