@@ -5,20 +5,79 @@
 .textfont{
 	font-size: 18px;
 }
- 
-.menu-item: hover{
-	color: pink;
+
+.nav-item :hover{
+	background-color: rgba(206, 25, 90, 0.9);
 }
+
 .alinhar{
 	padding-right: 500px;
 }
+
 .edit{
 	padding-top: 10px;
 }
+
 nav.fixar{
     position: fixed;
     margin-top: 0;
     top: 0;
     z-index: 99;
     width: 100%;
+}
+
+.bump {
+	padding-left: 8px;
+}
+
+.aj-icon {
+	padding-left: 20px;
+}
+
+a[href="#cabe"]{
+    padding:10px;
+    position:fixed;
+    top: 80%;
+    right:40px;
+    display:none;
+    font-size: 38px;
+		color: #292b2c !important;
+}
+a[href="#cabe"]:hover{
+    text-decoration:none;
+}
+
+.edit-text {
+	color: #292b2c !important;
+}
+
+.edit-align {
+	padding-top: 50px;
+
+}
+
+.align-right {
+	float: right;
+}
+
+.btn-secondary {
+    background-color: #ED809D;
+		border-color: #ED809D;
+}
+
+.btn-secondary:hover {
+		background-color: #ED809D;
+    border-color: #ED809D;
+}
+
+.btn-primary {
+    color: #292b2c;
+    background-color: #fff;
+    border-color: #ccc;
+}
+
+.btn-primary:hover {
+    color: #292b2c;
+    background-color: #fff;
+    border-color: #ccc;
 }

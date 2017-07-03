@@ -12,21 +12,23 @@
     <title>Jojo Patsserie</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="change/site.css" rel="stylesheet">
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-   
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <!-- Custom fonts for this template -->
     <link href="https://fonts.googleapis.com/css?family=Dosis" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet" type="text/css">
 
     <!-- Custom styles for this template -->
     <link href="css/business-casual.css" rel="stylesheet">
+    <link href="change/site.css" rel="stylesheet">
+
     <!-- Temporary navbar container fix -->
     <style>
     .navbar-toggler {
         z-index: 1;
     }
-    
+
     @media (max-width: 576px) {
         nav > .container {
             width: 100%;
@@ -39,7 +41,7 @@
 <body>
 
     <div class="col-md-12 espaçamento" id="cabe">
-         <a href="Index.html"><img src="img/logo2.png" width="200"></a>
+         <a href="index.html"><img src="img/logo2.png" width="200"></a>
     </div>
 
     <!-- Navigation -->
@@ -61,7 +63,7 @@
                         <a class="nav-link text-uppercase text-expanded" href="blog.html">Como chegar</a>
                     </li>
                     <li class="nav-item active px-lg-4">
-                        <a class="nav-link text-uppercase text-expanded" href="contact.html">Contato</a>
+                        <a class="nav-link text-uppercase text-expanded" href="contact.html">Fale Conosco</a>
                     </li>
                 </ul>
             </div>
@@ -77,27 +79,70 @@
             <hr class="divider">
             <div class="row">
                 <div class="col-lg-8">
-                    <div class="embed-responsive embed-responsive-16by9 map-container mb-4 mb-lg-0">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3968.8608373482843!2d-35.1805884852325!3d-5.875176495743399!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7b2ff398a5e3dc7%3A0xc07fed1627d24b1d!2sAv.+Engenheiro+Roberto+Freire+-+Ponta+Negra%2C+Natal+-+RN!5e0!3m2!1spt-BR!2sbr!4v1497888613633" width="642" height="361" frameborder="0" style="border:0" allowfullscreen></iframe>
-                    </div>
+                    <div class="embed-responsive embed-responsive-16by9 map-container mb-4 mb-lg-0" id="map"></div>
                 </div>
-                <div class="col-lg-4">
-                    <h5 class="mb-0 alinhar">Número:</h5>
-                    <div class="mb-4">123.456.7890</div>
-                    <h5 class="mb-0 alinhar">Email:</h5>
-                    <div class="mb-4"><a href="mailto:name@example.com">name@example.com</a></div>
+                <div class="col-lg-4 edit-align">
+                    <div class="mb-4">
+                      <class="mb-0 alinhar"><i class="fa fa-home fa-lg" aria-hidden="true"></i> Unidade Capim Macio
+                    </div>
+                    <div class="mb-4">
+                      <class="mb-0 alinhar"><i class="fa fa-mobile fa-lg" aria-hidden="true"></i> (84) 3082-2803
+                    </div>
+                    <div class="mb-4">
+                      <class="mb-0 alinhar"><i class="fa fa-clock-o fa-lg" aria-hidden="true"></i> Terça a sábado das 13h às 19h
+                    </div>
                 </div>
             </div>
         </div>
     </div>
     <!-- /.container -->
 
-   <footer class="bg-faded text-center py-5 bg-faded3 textfont">
+    <footer class="bg-faded py-5 bg-faded3 textfont">
         <div class="container">
-            <b><p class="m-0"><img src="img/endereço.png" width="27px">Av. Engenheiro Roberto Freire, 0114 | Ponta Negra | (84) 3082-2803<br>
-            <b><p class="m-0 edit"><img src="img/clock.png" width="27px">Horário de funcionamento de terça a sexta-feira das 13h às 19h<br>e aos sábados das 13h às 18h.</div></p></b>
-        </div>
+          <div class="row">
+            <div class="col-5">
+              <div class="row">
+                <div class="col-12">
+                  <b><p class="m-0"><i class="fa fa-map-marker fa-lg" aria-hidden="true"></i><span class="bump">Av. Engenheiro Roberto Freire, 0114 | Ponta Negra</span></p></b>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12">
+                  <b><p class="m-0 edit"><i class="fa fa-mobile fa-lg" aria-hidden="true"></i><span class="bump">Central de encomendas:</span></p></b>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12">
+                  <b><p class="m-0 aj-icon">(84) 3082-2803</p></b>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12">
+                  <b><p class="m-0 aj-icon">Terça a sábado das 13h às 19h</p></b>
+                </div>
+              </div>
+            </div>
+            <div class="col-7">
+              <div class="row">
+                <div class="col-12">
+                  <b><p "m-0"><i class="fa fa-envelope" aria-hidden="true"></i><span class="bump"><a class="edit-text" href="mailto:jojopatsserie@gmail.com">jojopatsserie@gmail.com</a></span></p></b>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12">
+                  <b><p "m-0">Siga Jojo Patisserie:</p></b>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12">
+                  <b><p "m-0"><a class="edit-text" href="https://www.instagram.com/jojopatsserie/" target="_blank"><i class="fa fa-instagram fa-lg" aria-hidden="true"></i></a> <a class="edit-text" href="https://www.facebook.com/giovannarnogueira" target="_blank"><i class="fa fa-facebook-square fa-lg" aria-hidden="true"></i></a> <a class="edit-text" href="https://twitter.com/Gionog_" target="_blank"><i class="fa fa-twitter-square fa-lg" aria-hidden="true"></i></a></p></b>
+                </div>
+              </div>
+            </div>
+          </div>
 
+        </div>
+        <a href="#cabe" class="fa fa-chevron-circle-up"></a>
     </footer>
 
     <!-- Bootstrap core JavaScript -->
@@ -105,7 +150,10 @@
     <script src="change/rolagem.js"></script>
     <script src="vendor/tether/tether.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-    
+    <script async defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD6HEw4-gKJcbVPCFOo6ewSDSDTFAYR-B8&callback=initMap">
+    </script>
+
 </body>
 
 </html>
