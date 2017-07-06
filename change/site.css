@@ -61,13 +61,19 @@ a[href="#cabe"]:hover{
 }
 
 .btn-secondary {
-    background-color: #ED809D;
+		color: #292b2c;
+		background-color: #ED809D;
 		border-color: #ED809D;
 }
 
 .btn-secondary:hover {
-		background-color: #ED809D;
-    border-color: #ED809D;
+		color: #292b2c;
+		background-color: #E85489;
+    border-color: #E85489;
+}
+
+.btn-secondary:active {
+		background-color: #E53C81;
 }
 
 .btn-primary {
@@ -78,6 +84,16 @@ a[href="#cabe"]:hover{
 
 .btn-primary:hover {
     color: #292b2c;
-    background-color: #fff;
+    background-color: #d3d3d3;
     border-color: #ccc;
+}
+
+.btn-primary:active {
+	background-color: #adadad;
+	border-color: #adadad;
+}
+
+.py-lg-4 {
+    padding-top: 0px;
+    padding-bottom: 0px;
 }
