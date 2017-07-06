@@ -99,9 +99,9 @@ $(document).ready(function(){
       }
       axios.post('http://bot-jojo-patsserie.herokuapp.com/mensagem', data)
         .then(function(response) {
-          window.location.replace('/confirm.html');
+          window.location.replace('confirm.html');
         }).catch(function(e) {
-          window.location.replace('/confirm.html');
+          window.location.replace('confirm.html');
         })
         /*
       $.ajax({
