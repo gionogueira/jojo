@@ -110,3 +110,15 @@ a[href="#cabe"]:hover{
 	border-bottom: 5px solid rgba(114, 192, 194, 1);
 	padding-bottom: 27px;
 }
+
+.align-menu {
+	line-height: 55px;
+}
+
+.align-up {
+	line-height: 0px;
+}
+
+.align-bottom {
+	padding-top: 10px;
+}
