@@ -122,3 +122,7 @@ a[href="#cabe"]:hover{
 .align-bottom {
 	padding-top: 10px;
 }
+
+.align-top {
+	padding-bottom: 10px;
+}
